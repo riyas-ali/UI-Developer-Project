@@ -74,59 +74,104 @@
 
     <!-- Featured -->
     <div class="container-fluid featured">
-        <div class="container">
+        <div class="container slider">
             <p class="feature-head">Featured Stories</p>
-            <div class="row stories col-xl-10 col-lg-12">
-                <div class="col-xl-4 col-lg-4 story-image p-0">
-                    <img src="images/grand-mother.png" class="img-fluid">
-                    <div class="play-button"><img src="images/play-button.png"></div>
-                </div>
-                <div class="col-xl-8 col-lg-8">
-                    <div class="row">
-                        <div class="col-xl-6 col-sm-9 col-12 text-center tags"><span>Social
-                                Works</span><span>Crowdfunding</span></div>
-                        <div class="col-xl-2 col-sm-3 col-12 ml-auto favorite-icon"><img src="images/favorite-icon.png">
-                        </div>
-                    </div>
-                    <h5>63-YO Delhi Grandmother Transforms Dump Yard Into Green Belt In Just 5 months</h5>
-                    <p>“I often visit the Nanak Piao Sahib Gurudwara in North Delhi and while once inside it is
-                        always peaceful and clean, the sight just outside was not so pleasing to the eyes,”</p>
-                    <p>20 December, 2020 · 6 min read · 234 liked</p>
-                    <div class="row">
-                        <div class="col-xl-6  col-lg-6">
-                            <div class="row">
-                                <div class="col-xl-2 col-2 col-sm-1 col-lg-2"><img src="images/author.png"></div>
-                                <div class="col-xl-10 col-10 col-sm-6 col-lg-10 author-profile">
-                                    <span>Vidya Raja</span>Mumbai, India
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row stories">
+                            <div class="col-xl-5 col-lg-5 story-image p-0">
+                                <img src="images/grand-mother.png" class="img-fluid">
+                                <div class="play-button"><img src="images/play-button.png"></div>
+                            </div>
+                            <div class="col-xl-7 col-lg-7">
+                                <div class="row">
+                                    <div class="col-xl-8 col-sm-9 col-12 text-center tags"><span>Social
+                                            Works</span><span>Crowdfunding</span></div>
+                                    <div class="col-xl-2 col-sm-3 col-12 ml-auto favorite-icon"><img
+                                            src="images/favorite-icon.png">
+                                    </div>
+                                </div>
+                                <h5>63-YO Delhi Grandmother Transforms Dump Yard Into Green Belt In Just 5 months</h5>
+                                <p>“I often visit the Nanak Piao Sahib Gurudwara in North Delhi and while once inside it
+                                    is
+                                    always peaceful and clean, the sight just outside was not so pleasing to the eyes,”
+                                </p>
+                                <p>20 December, 2020 · 6 min read · 234 liked</p>
+                                <div class="row story-bottom">
+                                    <div class="col-xl-5  col-lg-5">
+                                        <div class="row">
+                                            <div class="col-xl-2 col-2 col-sm-1 col-lg-2"><img src="images/author.png">
+                                            </div>
+                                            <div class="col-xl-10 col-10 col-sm-10 col-lg-10 author-profile">
+                                                <span>Vidya Raja</span>Mumbai, India
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-sm-6 col-lg-4"><a href="#">View Campaign</a></div>
+                                    <div class="col-xl-3 col-sm-6 col-lg-3"><a href="#">Read more</a></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-sm-6 col-lg-3"><a href="#">View Campaign</a></div>
-                        <div class="col-xl-3 col-sm-6 col-lg-3"><a href="#">Read more</a></div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row stories">
+                            <div class="col-xl-5 col-lg-5 story-image p-0">
+                                <img src="images/next-story.png" class="img-fluid">
+                            </div>
+                            <div class="col-xl-7 col-lg-7">
+                                <div class="row">
+                                    <div class="col-xl-8 col-sm-9 col-12 text-center tags"><span>Social
+                                            Works</span><span>Crowdfunding</span></div>
+                                    <div class="col-xl-2 col-sm-3 col-12 ml-auto favorite-icon"><img
+                                            src="images/favorite-icon.png">
+                                    </div>
+                                </div>
+                                <h5>63-YO Delhi Grandmother Transforms Dump Yard Into Green Belt In Just 5 months</h5>
+                                <p>“I often visit the Nanak Piao Sahib Gurudwara in North Delhi and while once inside it
+                                    is
+                                    always peaceful and clean, the sight just outside was not so pleasing to the eyes,”
+                                </p>
+                                <p>20 December, 2020 · 6 min read · 234 liked</p>
+                                <div class="row story-bottom">
+                                    <div class="col-xl-5 col-lg-5">
+                                        <div class="row">
+                                            <div class="col-xl-2 col-2 col-sm-2 col-lg-2"><img src="images/author.png">
+                                            </div>
+                                            <div class="col-xl-10 col-10 col-sm-10 col-lg-10 author-profile">
+                                                <span>Vidya Raja</span>Mumbai, India
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-sm-6 col-lg-4"><a href="#">View Campaign</a></div>
+                                    <div class="col-xl-3 col-sm-6 col-lg-3"><a href="#">Read more</a></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-8 story-pages">
-                    <div class="row">
-                        <div class="col-xl-3">
-                            <span><img src="images/arrow-left.svg"></span>
-                            <span><img src="images/arrow-right.svg"></span>
-                        </div>
-                        <div class="col-xl-9 text-center">
-                            <span><img src="images/Oval.svg"></span>
-                            <span><img src="images/Oval-Copy.svg"></span>
-                            <span><img src="images/Oval-Copy.svg"></span>
-                            <span><img src="images/Oval-Copy.svg"></span>
-                            <span><img src="images/Oval-Copy.svg"></span>
-                        </div>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators"
+                    data-slide="prev">
+                    <span aria-hidden="true"><img src="images/arrow-left.svg"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators"
+                    data-slide="next">
+                    <span aria-hidden="true"><img src="images/arrow-right.svg"></span>
+                    <span class="sr-only">Next</span>
+                </button>
             </div>
         </div>
-        <div class="next-story">
-            <img src="images/next-story.png" class="img-fluid">
-        </div>
+    </div>
+
+    <div class="container-fluid featured-bottom">
         <div class="container how-to-share">
             <div class="row">
                 <div class="col-xl-3 col-sm-6 col-lg-3 text-center">
@@ -157,7 +202,7 @@
             <img src="images/top-right-icon.svg">
         </div>
     </div>
-    
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -170,11 +215,24 @@
         crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
-    -->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $('.carousel').carousel({
+            pause: false,
+            interval: 10000
+        })
+    </script>
+
 </body>
 
 </html>
